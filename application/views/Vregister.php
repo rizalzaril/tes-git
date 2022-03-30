@@ -83,7 +83,7 @@
                                     </div>
                                 </div>
                             </form>
-                            <p class="text-center">Do Yo Have Account? <a href="<?php echo base_url('Login'); ?>">Sign
+                            <p class="text-center">Do Yo Have Account? <a href="<?php echo base_url('Login'); ?>">Login
                                     in Here</a></p>
                         </div>
                     </div>
