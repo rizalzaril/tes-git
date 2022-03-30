@@ -68,7 +68,7 @@
                                 </div>
                                 <?= form_error('password2'); ?>
                                 <div class="form-group">
-                                    <button type="submit" class="form-control btn btn-primary rounded submit px-3">Sign
+                                    <button type="submit" class="form-control btn btn-success rounded submit px-3">Sign
                                         Up</button>
                                 </div>
                                 <div class="form-group d-md-flex">
@@ -100,6 +100,7 @@
 </body>
 
 </html>
+
 
 
 
