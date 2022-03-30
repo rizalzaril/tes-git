@@ -1,0 +1,29 @@
+.img-fix{
+	width: 50%;
+	height: 50%;
+}
+
+.bg-login{
+	 background: #FFFFFF url("https://img.freepik.com/free-vector/memphis-blue-background-with-halftone-line-elements_1017-33622.jpg?t=st=1645090619~exp=1645091219~hmac=b1cc2a8e55c61b45acce2c746250b1970a71ff9545ab276b318f985ee486cb90&w=900");
+     background-size: 1350px;
+	 
+}
+
+@media screen and (max-width: 576px){
+	.responsive-mobile{
+		padding: 0px 10px;
+		background-color: black;
+		
+	}
+
+	.img-fix{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
+	}
+
+	
+
+	
+}

@@ -1,0 +1,65 @@
+input[type=text], 
+input[type=password],
+select {
+    width: 100%;
+    padding: 2px 5px;
+    margin: 2px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+
+input[type=button],
+input[type=submit] {
+
+    background-color: orange;
+    color:black;
+    padding: 4px 8px;
+    margin: 2px 0;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2), 0 2px 4px 0 rgba(0,0,0,0.19);
+}
+
+input[type=button]:hover{
+   background-color:blue; 
+}
+
+.shadowbox {
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2), 0 2px 4px 0 rgba(0,0,0,0.19);
+	width:700px;
+	height:500px;
+	padding:10px;
+}
+
+table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+}
+
+table td, table th {
+    border: 1px solid #ddd;
+    padding: 4px;
+}
+
+table th { color: white }
+
+#myTable tr:nth-child(even){background-color: white;}
+
+#myTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: white;
+    color: white;
+}
+.fArea {
+  padding-top:55px;
+}
+
+
+h1 {
+  text-shadow: 2px 2px red;
+}
